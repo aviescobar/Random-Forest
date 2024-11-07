@@ -29,3 +29,5 @@ def evaluate_result(y_pred, y, y_prep_pred, y_prep, metric):
     mse_without_scaling = metric(y_pred, y)
     mse_with_scaling = metric(y_prep_pred, y_prep)
     return mse_without_scaling, mse_with_scaling
+
+# Ruta principal
