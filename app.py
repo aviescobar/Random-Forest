@@ -57,4 +57,5 @@ def plot_png():
     plt.scatter(y_train_encoded, y_train_pred, alpha=0.5, color='blue', label='Sin Escalar')
     plt.plot([y_train_encoded.min(), y_train_encoded.max()], [y_train_encoded.min(), y_train_encoded.max()], 'k--', lw=2)
     plt.xlabel('Valores Reales')
-    plt.ylabel('Predicciones'
+    plt.ylabel('Predicciones')
+    plt.title('Sin Escalar')
