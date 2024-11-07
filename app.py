@@ -62,3 +62,4 @@ def plot_png():
     plt.legend()
 
      # Gráfico de dispersión con escalado
+    plt.subplot(1, 2, 2)
