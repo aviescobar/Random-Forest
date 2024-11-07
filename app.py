@@ -39,3 +39,5 @@ def index():
     mse_without_scaling, mse_with_scaling = evaluate_result(
         y_train_pred, y_train_encoded, y_train_prep_pred, y_train_encoded, mean_squared_error
     )
+    y_train_pred, y_train_encoded, y_train_prep_pred, y_train_encoded, mean_squared_error
+    )
