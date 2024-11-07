@@ -3,3 +3,4 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 import base64
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import LabelEncoder
