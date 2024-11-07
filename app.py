@@ -44,4 +44,5 @@ def index():
     y_train_pred, y_train_encoded, y_train_prep_pred, y_train_encoded, mean_squared_error
     )
 
-    # Ruta para generar la gráfica
+ # Ruta para generar la gráfica
+@app.route('/plot.png')
