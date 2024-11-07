@@ -59,3 +59,4 @@ def plot_png():
     plt.xlabel('Valores Reales')
     plt.ylabel('Predicciones')
     plt.title('Sin Escalar')
+    plt.legend()
