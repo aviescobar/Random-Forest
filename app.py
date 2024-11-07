@@ -63,3 +63,4 @@ def plot_png():
 
      # Gráfico de dispersión con escalado
     plt.subplot(1, 2, 2)
+    plt.scatter(y_train_encoded, y_train_prep_pred, alpha=0.5, color='green', label='Con Escalado')
