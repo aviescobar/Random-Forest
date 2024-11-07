@@ -24,3 +24,5 @@ clf_rndr.fit(X_train, y_train_encoded)
 clf_rndr_scaled = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
 clf_rndr_scaled.fit(X_train_scaled, y_train_encoded)
 
+# Función para evaluar resultados
+
