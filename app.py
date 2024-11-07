@@ -8,3 +8,5 @@ from sklearn.metrics import mean_squared_error
 import numpy as np
 
 app = Flask(__name__)
+
+# Datos de ejemplo (reemplaza esto con tus datos reales)
