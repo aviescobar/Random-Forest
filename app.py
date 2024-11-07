@@ -54,4 +54,5 @@ def plot_png():
 
     # Gráfico de dispersión sin escalado
     plt.subplot(1, 2, 1)
+    plt.scatter(y_train_encoded, y_train_pred, alpha=0.5, color='blue', label='Sin Escalar')
 
