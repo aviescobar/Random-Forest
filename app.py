@@ -10,3 +10,4 @@ import numpy as np
 app = Flask(__name__)
 
 # Datos de ejemplo (reemplaza esto con tus datos reales)
+X_train = np.random.rand(100, 5)
