@@ -35,3 +35,5 @@ def evaluate_result(y_pred, y, y_prep_pred, y_prep, metric):
 def index():
     y_train_pred = clf_rndr.predict(X_train)
     y_train_prep_pred = clf_rndr_scaled.predict(X_train_scaled)
+
+    mse_without_scaling, mse_with_scaling = evaluate_result(
