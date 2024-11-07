@@ -46,3 +46,4 @@ def index():
 
  # Ruta para generar la gráfica
 @app.route('/plot.png')
+def plot_png():
