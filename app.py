@@ -15,3 +15,4 @@ y_train = np.random.rand(100)
 X_train_scaled = X_train * 0.5
 
 # Entrenamiento de modelos
+label_encoder = LabelEncoder()
