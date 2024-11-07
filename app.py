@@ -47,3 +47,4 @@ def index():
  # Ruta para generar la gráfica
 @app.route('/plot.png')
 def plot_png():
+    y_train_pred = clf_rndr.predict(X_train)
