@@ -26,4 +26,5 @@ clf_rndr_scaled.fit(X_train_scaled, y_train_encoded)
 
 # Función para evaluar resultados
 def evaluate_result(y_pred, y, y_prep_pred, y_prep, metric):
+mse_without_scaling = metric(y_pred, y)
 
