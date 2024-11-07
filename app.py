@@ -5,3 +5,4 @@ import base64
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error
+import numpy as np
