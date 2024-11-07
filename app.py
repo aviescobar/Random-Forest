@@ -32,3 +32,4 @@ def evaluate_result(y_pred, y, y_prep_pred, y_prep, metric):
 
 # Ruta principal
 @app.route('/')
+def index():
