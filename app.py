@@ -50,3 +50,5 @@ def plot_png():
     y_train_pred = clf_rndr.predict(X_train)
     y_train_prep_pred = clf_rndr_scaled.predict(X_train_scaled)
 
+    plt.figure(figsize=(10, 5))
+
