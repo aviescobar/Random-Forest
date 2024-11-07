@@ -31,3 +31,4 @@ def evaluate_result(y_pred, y, y_prep_pred, y_prep, metric):
     return mse_without_scaling, mse_with_scaling
 
 # Ruta principal
+@app.route('/')
