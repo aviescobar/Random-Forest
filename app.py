@@ -60,3 +60,5 @@ def plot_png():
     plt.ylabel('Predicciones')
     plt.title('Sin Escalar')
     plt.legend()
+
+     # Gráfico de dispersión con escalado
