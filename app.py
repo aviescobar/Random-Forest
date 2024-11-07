@@ -17,3 +17,5 @@ X_train_scaled = X_train * 0.5
 # Entrenamiento de modelos
 label_encoder = LabelEncoder()
 y_train_encoded = label_encoder.fit_transform(y_train)
+
+clf_rndr = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1)
