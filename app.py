@@ -13,3 +13,5 @@ app = Flask(__name__)
 X_train = np.random.rand(100, 5)
 y_train = np.random.rand(100)
 X_train_scaled = X_train * 0.5
+
+# Entrenamiento de modelos
