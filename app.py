@@ -53,4 +53,5 @@ def plot_png():
     plt.figure(figsize=(10, 5))
 
     # Gráfico de dispersión sin escalado
+    plt.subplot(1, 2, 1)
 
